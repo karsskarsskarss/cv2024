@@ -155,11 +155,13 @@
         </main>
     
         <footer>
+            <section id="socials" class="content-socials">
             <p>Connect with me on social media:</p>
             <a href="https://www.facebook.com/your-profile" target="_blank" class="fa fa-facebook"></a>
             <a href="https://www.linkedin.com/in/your-profile" target="_blank" class="fa fa-linkedin"></a>
             <a href="https://twitter.com/your-profile" target="_blank" class="fa fa-twitter"></a>
         </footer>
+    </section>
     
       <script>
         document.addEventListener('DOMContentLoaded', function () {
@@ -197,6 +199,23 @@
 });
 
       </script>
+      <!-- <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const hamburger = document.querySelector(".hamburger");
+            const navMenu = document.querySelector(".nav-menu");
+        
+            hamburger.addEventListener("click", function() {
+                hamburger.classList.toggle("active");
+                navMenu.classList.toggle("active");
+            });
+        
+            document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click", function() {
+                hamburger.classList.remove("active");
+                navMenu.classList.remove("active");
+            }));
+        });
+        </script> -->
+        
         
         
     
