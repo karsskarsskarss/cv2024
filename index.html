@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artūrs Jānis Karss - CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+</head>
+<body>
+
+        <header>
+            <h1>Artūrs Jānis Karss</h1>
+            <p>IT Student</p>
+        </header>
+        <div class="hamburger-menu">
+            <input id="menu__toggle" type="checkbox"/>
+            <label class="menu__btn" for="menu__toggle"> <!--Menu burgir-->
+                    <div class="dropdown">
+                        <button class="dropbtn"></button>
+                        <div class="dropdown-content">
+                            <a href="#about-me">About Me</a>
+                            <a href="#education">Education</a>
+                            <a href="#skills">Skills</a>
+                            <a href="#experience">Experience</a>
+                            <a href="#contact-form">Contact Me</a>
+                            <a href="#CV.pdf">My CV</a>
+                            <a href="#socials">Socials</a>
+                        </div>
+                    </div>
+
+            </label>
+             <!-- Hamburger Menu -->
+              <!-- Main content here -->
+        <main>
+            <div class="flex-container">
+                <div class="slideshow-container">
+                    <!-- Slideshow images -->
+                    <div class="mySlides fade">
+                        <img src="img1.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides fade">
+                        <img src="img2.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides fade">
+                        <img src="img3.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides fade">
+                        <img src="img4.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides fade">
+                        <img src="img5.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides fade">
+                        <img src="img6.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides fade">
+                        <img src="img7.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides fade">
+                        <img src="img8.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides fade">
+                        <img src="img9.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides fade">
+                        <img src="img10.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides fade">
+                        <img src="img11.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides fade">
+                        <img src="img12.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides fade">
+                        <img src="img13.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides fade">
+                        <img src="img14.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides fade">
+                        <img src="img15.jpg" style="width:100%">
+                    </div>
+                </div>
+                <section id="about-me" class="content-section">
+                    <!-- About Me content -->
+                    <h2>About Me</h2>
+                    <p>I am a second year student at RTU. In my free time, I like to play football and run. I've trained in each sport for 7 years and now enjoy them both in my free time. I am a very big fan of FC Bayern Munich and try to go to Munich to watch a game live at the stadium once a year.</p>
+                </section>
+            </div>
+    
+            <!-- Rest of your main content remains unchanged -->
+            <section id="education" class="content-section">
+                <h2>Education</h2>
+                <p>I have finished a course "Basics of Programming" at Riga Coding School. Additionally, I have participated in an Accenture bootcamp "IOS Mobile Bootcamp". Currently, I am a second year student in the bachelor's program "Information Technology" at RTU.</p>
+            </section>
+                    <section id="skills" class="content-section">
+                    <h2>Skills</h2>
+                    <div class="skills-subsection">
+                        <h3>Programming Languages</h3>
+                        <!-- Example with FontAwesome icons -->
+                        <p>
+                            <i class="fab fa-java" title="Java"></i> Java
+                            <i class="fab fa-html5" title="HTML"></i> HTML
+                            <i class="fab fa-css3-alt" title="CSS"></i> CSS
+                            <i class="fab fa-js-square" title="JavaScript"></i> JavaScript
+                            <i class="fab fa-python" title="Python"></i> Python
+                            
+                            <!-- Placeholder for C++ as an example, replace src with your C++ icon image -->
+                            
+                        </p>
+                    </div>
+                    <div class="skills-subsection">
+                        <h3>Methodologies</h3>
+                        <p>Agile, Lean, Waterfall</p>
+                    </div>
+                </section>
+             </section>
+    
+            <section id="experience" class="content-section">
+                <h2>Experience</h2>
+                <p>Outline your professional experience here.</p>
+            </section>
+    <section>
+        <section id="contact-form" class="content-section">
+            <h2>Contact Me</h2>
+            <form id="ajax-form" action="https://getform.io/f/lbkmgkqb" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <div>
+                    <input type="checkbox" name="subscribe" value="yes" checked>
+                    <label for="subscribe">Subscribe to newsletter</label>
+                </div>
+                <div>
+                    <label>Gender:</label>
+                    <label><input type="radio" name="gender" value="male" checked> Male</label>
+                    <label><input type="radio" name="gender" value="female"> Female</label>
+                    <label><input type="radio" name="gender" value="other"> Other</label>
+                </div>
+                <select name="work-experience">
+                    <option value="one-year">0-1 years</option>
+                    <option value="one-five-years">1-5 years</option>
+                </select>
+                <!-- Hidden Honeypot Input to Prevent Spam -->
+                <input type="hidden" name="_gotcha" style="display:none !important">
+                <button type="submit">Send</button>
+            </form>
+        </section>
+        
+            
+        </main>
+    
+        <footer>
+            <p>Connect with me on social media:</p>
+            <a href="https://www.facebook.com/your-profile" target="_blank" class="fa fa-facebook"></a>
+            <a href="https://www.linkedin.com/in/your-profile" target="_blank" class="fa fa-linkedin"></a>
+            <a href="https://twitter.com/your-profile" target="_blank" class="fa fa-twitter"></a>
+        </footer>
+    
+      <script>
+        document.addEventListener('DOMContentLoaded', function () {
+    const menuToggle = document.getElementById('menu__toggle');
+    const menuBtn = document.querySelector('.menu__btn');
+    const menuItems = document.querySelectorAll('.menu__item');
+
+    // Toggle the menu on hamburger icon click
+    menuBtn.addEventListener('click', () => {
+        menuToggle.checked = !menuToggle.checked;
+    });
+
+    // Close the menu when any menu item is clicked
+    menuItems.forEach(item => {
+        item.addEventListener('click', () => {
+            menuToggle.checked = false;
+        });
+    });
+
+    // Slideshow functionality
+    let slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}    
+        slides[slideIndex-1].style.display = "block";
+        setTimeout(showSlides, 3000); // Change image every 3 seconds
+    }
+});
+
+      </script>
+        
+        
+    
+</body>
+
+</html>
