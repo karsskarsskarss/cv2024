@@ -42,7 +42,7 @@
                 <div class="slideshow-container">
                     <!-- Slideshow images -->
                     <div class="mySlides fade">
-                        <img src="img1.jpg" style="width:100%">
+                         <img src="img1.jpg"   style="width:100%" >
                     </div>
                     <div class="mySlides fade">
                         <img src="img2.jpg" style="width:100%">
@@ -133,10 +133,10 @@
                 <input type="text" name="name" placeholder="Your Name" required>
                 <input type="email" name="email" placeholder="Your Email" required>
                 <textarea name="message" placeholder="Your Message" required></textarea>
-                <div>
+                <!-- <div>
                     <input type="checkbox" name="subscribe" value="yes" checked>
                     <label for="subscribe">Subscribe to newsletter</label>
-                </div>
+                </div> -->
                 <div>
                     <label>Gender:</label>
                     <label><input type="radio" name="gender" value="male" checked> Male</label>
@@ -165,24 +165,8 @@
         </footer>
     </section>
     
-      <script>
-        document.addEventListener('DOMContentLoaded', function () {
-    const menuToggle = document.getElementById('menu__toggle');
-    const menuBtn = document.querySelector('.menu__btn');
-    const menuItems = document.querySelectorAll('.menu__item');
-
-    // Toggle the menu on hamburger icon click
-    menuBtn.addEventListener('click', () => {
-        menuToggle.checked = !menuToggle.checked;
-    });
-
-    // Close the menu when any menu item is clicked
-    menuItems.forEach(item => {
-        item.addEventListener('click', () => {
-            menuToggle.checked = false;
-        });
-    });
-
+      
+<script>
     // Slideshow functionality
     let slideIndex = 0;
     showSlides();
@@ -198,10 +182,10 @@
         slides[slideIndex-1].style.display = "block";
         setTimeout(showSlides, 3000); // Change image every 3 seconds
     }
-});
+;
 
       </script>
-      <script>
+       <script>
         document.addEventListener('DOMContentLoaded', function () {
             const hamburger = document.querySelector(".hamburger");
             const navMenu = document.querySelector(".nav-menu");
@@ -216,7 +200,7 @@
                 navMenu.classList.remove("active");
             }));
         });
-        </script>
+        </script> -->
         
         
         
