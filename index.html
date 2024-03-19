@@ -241,6 +241,12 @@
                     modal.style.display = "none";
                 }
             }
+            // When the user clicks on "Return to Page" button, close the modal and reload the page
+returnBtn.onclick = function() {
+    modal.style.display = "none";
+    window.location.reload(); // Add this line to reload the page
+}
+
         </script>
         
         
