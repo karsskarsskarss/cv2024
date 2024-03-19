@@ -76,38 +76,60 @@ footer {
 }
 
 /* Contact Form Styles */
+/* 
+/* Contact Form Enhancements */
 #contact-form {
     background-color: #fff;
-    padding: 20px;
+    padding: 40px; /* Increased padding for better spacing */
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* More pronounced shadow */
     max-width: 500px;
-    margin: 20px auto;
+    margin: 40px auto;
+    font-size: 16px; /* Adjust font size for better readability */
 }
 
 #contact-form input[type="text"],
 #contact-form input[type="email"],
 #contact-form textarea {
     width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
+    padding: 15px; /* Increased padding for a larger touch area */
+    margin-bottom: 20px; /* Increased margin for better spacing */
     border: 1px solid #ccc;
     border-radius: 4px;
+    box-sizing: border-box; /* Ensure padding does not affect overall width */
+    transition: border-color 0.3s; /* Smooth transition for border color */
+}
+
+#contact-form input[type="text"]:focus,
+#contact-form input[type="email"]:focus,
+#contact-form textarea:focus {
+    border-color: #005A9C; /* Highlight with primary color on focus */
+    outline: none; /* Remove default focus outline */
 }
 
 #contact-form button {
     width: 100%;
-    padding: 10px;
+    padding: 15px; /* Increased padding for a better click area */
     background-color: #005A9C;
     color: white;
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    font-size: 18px; /* Larger font size for the button */
+    transition: background-color 0.2s; /* Smooth transition for hover effect */
 }
 
 #contact-form button:hover {
-    background-color: #003D73;
+    background-color: #003D73; /* Darker shade on hover */
 }
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 480px) {
+    #contact-form {
+        padding: 20px; /* Adjust padding on very small screens */
+    }
+}
+ */
 
 /* Hamburger Menu Styles */
 .menu__box {
