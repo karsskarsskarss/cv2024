@@ -1,0 +1,111 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set font, you might need to link a Google Font in your HTML if you want a specific one */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Navbar styles */
+.navbar-container {
+    background-color: #333;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    padding: 0.5em 1em;
+}
+
+.nav-link:hover {
+    background-color: #555;
+}
+
+.hamburger {
+    display: none; /* Hide hamburger by default, show via media query for mobile */
+}
+
+/* Main content styles */
+.main-content header {
+    background-color: #f8f8f8;
+    text-align: center;
+    padding: 2em 0;
+}
+
+.content-section {
+    padding: 2em;
+    border-bottom: 1px solid #eee;
+}
+
+/* Skills section with icons */
+.skills-subsection {
+    margin: 1em 0;
+}
+
+.fab {
+    margin-right: 10px;
+}
+
+/* Contact form styles */
+.contact-info p {
+    margin: 0.5em 0;
+}
+
+/* Social links footer */
+.socials-container footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.content-socials a {
+    color: white;
+    margin: 0 10px;
+    font-size: 24px;
+}
+
+/* Responsive styles for mobile */
+@media (max-width: 768px) {
+    .hamburger {
+        display: block; /* Show hamburger menu */
+        cursor: pointer;
+    }
+    .nav-menu {
+        display: none; /* Hide nav links on mobile */
+        flex-direction: column;
+        width: 100%;
+    }
+    .nav-menu.active {
+        display: flex; /* Show nav links when active */
+    }
+}
+
+/* Adjust the following styles according to your preferences or based on the specific design from the image */
+
+/* Add more specific styles */
+/* For example, to style the h1 in header */
+.main-content header h1 {
+    color: #333;
+    font-size: 2.5em;
+}
+
+/* You might want to add specific color codes, padding, margins, and other styling details to match the design you're referring to. */
+
